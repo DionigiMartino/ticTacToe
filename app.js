@@ -28,6 +28,7 @@ function setPlayer() {
 }
 
 // This function decides how the game is set, against the computer or a Player
+// Then it checks if the clicked blocks is empty, and so it will be filled with the next move
 
 function playerMoves() {
     if(choiceComputerPlayer == 'Computer'){
