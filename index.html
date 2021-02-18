@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tictac.css">
+</head>
+<body>
+    <div class="cont__main">
+        <h2>
+            Tic-Tac-Toe Game
+        </h2>
+
+        <h3>Choose if you want to play against Computer or Another PLayer</h3>
+
+        <fieldset>
+            <input type="radio" name="player-choice-computer-person" id="player-choice-1" value="Computer" />
+            <label for="player-choice-1">Computer</label>
+            <input type="radio" name="player-choice-computer-person" id="player-choice-2" value="Player" />
+            <label for="player-choice-2">Player</label>
+        </fieldset>
+
+        <h2 class="message">Choose your Sign:</h2>
+        <form action="#">
+            <fieldset>
+            <input type="radio" name="player-choice" id="player-choice-1" value="X" />
+            <label for="player-choice-1">X</label>
+            <input type="radio" name="player-choice" id="player-choice-2" value="O" />
+            <label for="player-choice-2">O</label>
+            </fieldset>
+            <button id="reset" class="btn btn-primary">Reset</button>
+        </form>
+
+        <div class="row" id="grid-section">
+            <ul id="grid"></ul>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
